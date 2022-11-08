@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Code checkout
-        uses: actions/checkout@2.5.0
+        uses: actions/checkout@v2.5.0
         with:
           token:${{ secrets.WORKFLOW_TOKEN  }}
 
@@ -35,7 +35,7 @@ jobs:
 
     steps:
       - name: Code checkout
-        uses: actions/checkout@2.5.0
+        uses: actions/checkout@v2.5.0
         with:
           token:${{ secrets.WORKFLOW_TOKEN  }}
 
