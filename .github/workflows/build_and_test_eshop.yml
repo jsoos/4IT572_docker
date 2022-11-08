@@ -56,7 +56,7 @@ jobs:
           npm rebuild node-sass --force
           npm run build -- --colors
 
-   Test:
+  Test:
     needs: Install
     runs-on: ubuntu-latest
 
